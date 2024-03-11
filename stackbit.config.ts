@@ -13,7 +13,7 @@ export default defineStackbitConfig({
     new GitContentSource({
       rootPath: __dirname,
       contentDirs: ['content'],
-      models: [button, hero, page, stats],
+      models: [button, hero, stats],
       assetsConfig: {
         referenceType: 'static',
         staticDir: 'public',
